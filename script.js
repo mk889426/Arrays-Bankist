@@ -95,8 +95,11 @@ const createUserNames = function (accs) {
 createUserNames(accounts);
 
 btnLogin.addEventListener('click',function(e){
+    // prevent form from submitting
     e.preventDefault();
+    
     console.log('Login!');
+
 })
 
 const calcPrintBalance = function (movements) {
